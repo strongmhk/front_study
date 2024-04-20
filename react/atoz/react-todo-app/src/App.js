@@ -29,6 +29,11 @@ export default class App extends Component {
       title: "청소하기",
       completed: false,
     },
+    {
+      id: "3",
+      title: "운동하기",
+      completed: false,
+    },
   ];
 
   handleClick = (id) => {
